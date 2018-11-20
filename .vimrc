@@ -13,7 +13,7 @@ set shiftwidth=2
 syntax on
 filetype plugin indent on
 colorscheme desert
-set background=light
+set background=dark
 
 set hlsearch
 set foldmethod=indent " folding
