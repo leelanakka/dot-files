@@ -105,6 +105,7 @@ alias vv="v ~/.vimrc"
 alias vz="v ~/.zshrc " 
 alias n="node"
 alias t="./projects/patterns-Assignment/run_all_tests.sh"
+alias gil=". ~/bin/gitFiles/linkGitFiles.sh"
 
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
