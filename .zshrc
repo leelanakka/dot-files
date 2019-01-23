@@ -106,6 +106,7 @@ alias vz="v ~/.zshrc "
 alias n="node"
 alias t="./projects/patterns-Assignment/run_all_tests.sh"
 alias gil=". ~/bin/gitFiles/linkGitFiles.sh"
+alias m="mocha"
 
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -113,5 +114,8 @@ alias gil=". ~/bin/gitFiles/linkGitFiles.sh"
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 POWERLEVEL9K_MODE="nerdfont-complete"
 
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 export TERM=xterm-256color
+export PATH="/usr/local/share/miniconda3/bin:$PATH"
+export PATH="/usr/local/share/torch/install/bin:$PATH"

@@ -27,6 +27,13 @@ set statusline+=%F
 
 imap cf<tab> const name = function(){<cr><cr>return;<cr>}<up><up>
 imap fo<tab> for(let index = 0; index < <tab>; index++){<cr><cr>}<up>
+map cl iconsole.log();<Esc>hi
+map pa2 iprocess.argv[2];
+map pa3 iprocess.argv[3];
+map cr iconst ref = require(' <Esc>mai’);<Esc>`ai
+map as iconst assert = require(‘assert’);
+map nm inumberList = [3,7,3,1,9,5];
+map dit idescribe(' ‘, () => {<Esc>o  it(‘’, () => {<Esc>o <Esc>mao  });<Esc>o});<Esc>`a
 
 set laststatus=2
 set t_Co=256
