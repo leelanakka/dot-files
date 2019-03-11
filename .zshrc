@@ -2,6 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+POWERLEVEL9K_MODE="nerdfont-complete"
 export ZSH="/Users/prasantn/.oh-my-zsh"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 # Set name of the theme to load --- if set to "random", it will
@@ -111,11 +112,9 @@ alias m="mocha"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-POWERLEVEL9K_MODE="nerdfont-complete"
-
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 export TERM=xterm-256color
 export PATH="/usr/local/share/miniconda3/bin:$PATH"
 export PATH="/usr/local/share/torch/install/bin:$PATH"
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
